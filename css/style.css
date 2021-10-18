@@ -1,0 +1,137 @@
+/*
+RGBA COLOR PALETTE
+https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
+$imperial-red: rgba(230, 57, 70, 1);
+$honeydew: rgba(241, 250, 238, 1);
+$powder-blue: rgba(168, 218, 220, 1);
+$celadon-blue: rgba(69, 123, 157, 1);
+$prussian-blue: rgba(29, 53, 87, 1);
+*/
+
+/*The background property is a shorthand property for:
+
+background-color
+background-image
+background-position
+background-size
+background-repeat
+background-origin
+background-clip
+background-attachment
+It does not matter if one of the values above are missing, e.g. background:#ff0000 url(smiley.gif); is allowed.*/
+
+/* Global Styles
+-------------------------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, * after {
+    box-sizing: inherit;
+}
+
+body {
+    color: rgba(29, 53, 87, 1);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h1, h2 {
+    margin: 0;
+    font-family: 'Caveat', cursive;
+    font-weight: normal;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: rgba(29, 53, 87, 1);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+
+/* Profile
+-------------------------------------------------------------*/
+header {
+    background: rgba(230, 57, 70, 1);
+    color: rgba(241, 250, 238, 1);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Projects
+-------------------------------------------------------------*/
+.projects {
+    background: rgba(241, 250, 238, 1);
+}
+
+.projects .btn {
+    background: rgba(230, 57, 70, 1);
+    color: rgba(241, 250, 238, 1);
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.projects .btn:hover {
+    background-color: rgba(230, 57, 70, 0.8);
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed rgba(230, 57, 70, 1);
+    padding: 25px 0px;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+
+
+/* Work Experience
+-------------------------------------------------------------*/
+.work-experience {
+    background: rgba(168, 218, 220, 1);
+}
+
+/* Education
+-------------------------------------------------------------*/
+.education {
+
+}
+
+/* Contact Info
+-------------------------------------------------------------*/
+footer {
+    background: rgba(69, 123, 157, 1);
+    color: rgba(241, 250, 238, 1);
+}
