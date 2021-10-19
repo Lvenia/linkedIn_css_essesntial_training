@@ -79,7 +79,8 @@ a:hover {
 }
 
 .content-wrap {
-    width: 800px;
+    max-width: 800px;
+    width: 85%;
     margin: 0 auto;
     padding: 60px 0px;
 }
@@ -149,7 +150,14 @@ header {
 /* Education
 -------------------------------------------------------------*/
 .education {
+    background-image: url("../placeholder-images/sharon-mccutcheon-unsplash.jpg");
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
 
+.education p {
+    width: 60%;
 }
 
 /* Contact Info
