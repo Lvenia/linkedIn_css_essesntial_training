@@ -89,9 +89,11 @@ a:hover {
     border-bottom: 1px dashed rgba(230, 57, 70, 1);
     padding: 25px 0px;
 }
+
 .divider > section:last-of-type {
     border-bottom: none;
 }
+
 /* Profile
 -------------------------------------------------------------*/
 header {
@@ -99,7 +101,6 @@ header {
     color: rgba(241, 250, 238, 1);
     padding: 8px;
     border-radius: 4px;
-    text-align: center;
 }
 
 /* Projects
@@ -125,11 +126,6 @@ header {
     overflow: hidden;
 }
 
-.project-item img {
-    float: left;
-    margin-right: 20px;
-}
-
 .project-item h3 {
     margin-top: 0;
 }
@@ -139,12 +135,6 @@ header {
 -------------------------------------------------------------*/
 .work-experience {
     background: rgba(168, 218, 220, 1);
-}
-
-.job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
 }
 
 /* Education
@@ -165,12 +155,9 @@ header {
 footer {
     background: rgba(69, 123, 157, 1);
     color: rgba(241, 250, 238, 1);
-    text-align: center;
 }
 
 .contact-info {
-    display: flex;
-    justify-content: center;
     list-style-type: none;
     padding: 0;
 }
@@ -179,3 +166,48 @@ footer {
     padding: 0px 15px;
     display: inline-block;
 }
+
+/* Responsive design
+-------------------------------------------------------------*/
+@media screen and (min-width: 750px) {
+    header, footer {
+        text-align: center;
+    }
+
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+
+    .contact-info {
+        display: flex;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    h1 {
+        font-size: 75px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        line-height: 1;
+    }
+
+    .contact-info a {
+        padding: 5px;
+    }
+
+    section.education {
+        background-color: rgba(241, 250, 238, 0.7);
+        background-blend-mode: color-dodge;
+    }
+}ky
